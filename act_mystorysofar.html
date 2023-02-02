@@ -78,7 +78,13 @@
                         <li><a class="dropdown-item" href="#">Something Else Here</a></li>
                     </ul>
                 </li>
-                <li><a target="_blank">About</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="goodlife.html">The Good Life</a></li>
+                        <li><a class="dropdown-item" href="humandecisions.html">Human Decisions</a>
+                    </ul>
+                </li>
                 <li><a target="_blank" href="https://www.mymavins.com.au/">Support</a></li>
             </ul>
         </div>
@@ -99,14 +105,13 @@
 	<!-- Sidebar Navigation
 	============================ -->
 	<div class="idocs-navigation bg-light">
-      <ul class="nav flex-column ">
-        <li class="nav-item"><a class="nav-link active" href="#home_start">Overview</a>
-          <ul class="nav flex-column">
-            <li class="nav-item"><a class="nav-link" href="#idocs_installation">Installation</a></li>
-          </ul>
-        </li>
-		<li class="nav-item"><a class="nav-link" href="#idocs_faq">FAQ</a></li>
-      </ul>
+        <ul class="nav flex-column ">
+            <li class="lead"><a class="nav-link" href="#home_start">My Story So Far Activity</a></li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#home_start">Guide</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_faq">FAQ</a></li>
+        </ul>
     </div>
     
     <!-- Docs Content
@@ -117,43 +122,48 @@
             <!-- Overview
     ============================ -->
             <section id="home_start">
-                <h1><b>Life Support Suite Guide</b></h1>
-                <h2>Overview</h2>
-                <p class="lead">Welcome to the Life Support Suite (LSS) Guide.</p>
-                <p class="alert alert-info">If you have any questions or feedback, please feel free to email us at <a target="_blank" href="mailto:info@mymavins.com.au">info@mymavins.com.au</a>.</p>
+                <h1><b>My Story So Far Guide</b></h1>
+                <h2>Life Visioning Tool</h2>
+                <p class="lead">Activity Guide and Scripting</p>
+                <p><i>I would love to run through an activity with you to explore your life’s journey to date, where you want to be headed and what is most important to you. It’s called “My story”.</i></p>
+                <p class="alert alert-info">Complete form with client age and details as required and click on start activity button.</p>
+                <p><img class="img-fluid" src="assets/images/act_story1.png" alt=""></p>
+                <p><img class="img-fluid" src="assets/images/act_story2.png" alt=""></p>
+
+
+                <p>
+                    <i>
+                        What are top 5 key milestone moments in the story of your life so far? What are the most important or significant milestone events or achievements that have impacted your quality of life? Are there any on this list that apply? Lets drop that in at the right age on the top green panel. We can add in customised event if you like. (Growth life event list) > Likely to offer the usual suspects so after establishing 5 if easy can probe a little deeper for more events if appropriate.
+                        <br />
+                        <br />
+                        Every good story has some twists and turns, some ups and downs. What are some of the biggest milestone challenges you have faced in your life story so far?  (Challenging life event list) Lets drop that in at the right age on the bottom red panel.
+                    </i>
+                </p>
+                <p class="alert alert-info">Scale on Y axis relative to impact on their quality of life. Probe how they coped with the challenges. What worked for them best? </p>
+                <p class="alert alert-info">Click on Next chapter and show future timeline and refocus on this section i.e. now until ‘the end’ </p>
+                <p><img class="img-fluid" src="assets/images/act_story3.png" alt=""></p>
+
+                <p><i>Ok so we have our back story. Lets look at writing the sequel! What happens next? Which are the key aspirational milestone events or goals you are looking forward to in the future? (Future Goal life event list).</i></p>
+                <p><img class="img-fluid" src="assets/images/act_story4.png" alt=""></p>
+                <p><i>Which are the key milestone events you may face in the future that you will find more challenging? (Future Obstacle life event list) .</i></p>
+                <p class="alert alert-info">Scale on Y axis relative to impact on their quality of life.</p>
+                <p class="alert alert-info">Click on Future Confidence and refocus on these ratings.</p>
+                <p><img class="img-fluid" src="assets/images/act_story5.png" alt=""></p>
+                <p><img class="img-fluid" src="assets/images/act_story6.png" alt=""></p>
+
+                <p><i>How confident do you currently feel in being able to achieve these key goals you have identified? Work though each. How confident do you currently feel in being able to navigate these key obstacles you have identified?</i></p>
+                <p class="alert alert-info">Adjust vertical sliders with scale on Y axis relative to confidence to achieve goals and deal with challenges. Probe why they feel this way.</p>
+                <p><img class="img-fluid" src="assets/images/act_story7.png" alt=""></p>
+
+                <p><i>(If judged appropriate) <br /><br /> 
+                    Ultimately what does the happy ending to your life story read like? (Add goals as required. Capture the epitaph? Consider leaving conversation with lighter tone by asking “What would the biopic of your life be called? Who would you get to play you?) 
+                    </i></p>
+                <p><img class="img-fluid" src="assets/images/act_story8.png" alt=""></p>
+
             </section>
 
             <hr class="divider">
 
-            <!-- Installation
-    ============================ -->
-            <section id="idocs_installation">
-                <h2>Installation</h2>
-                <p class="lead">Follow the steps below to setup your site template:</p>
-                <ol>
-                    <li>Unzip the downloaded package and open the <strong>/HTML</strong> folder to find all the template files. You will need to upload these files to your hosting web server using FTP or localhost in order to use it on your website.</li>
-                    <li>
-                        Below is the folder structure and needs to be uploaded to your website or localhost root directory:
-                        <ul>
-                            <li>
-                                <code>HTML/assets</code> - Contains all of the assets referenced
-                                <ul>
-                                    <li><code>HTML/css</code> - Stylesheet files</li>
-                                    <li><code>HTML/images</code> - Images files</li>
-                                    <li><code>HTML/js</code> - Javacript files</li>
-                                    <li><code>HTML/sass</code> - Sass files</li>
-                                    <li><code>HTML/vendor</code> – All external libs.</li>
-                                </ul>
-                            </li>
-                            <li><code>HTML/index.html</code> - Homepage
-                        </ul>
-                    </li>
-                    <li>You should upload all or specific HTML files as per your need.</li>
-                    <li>You are good to go for adding your content now!</li>
-                </ol>
-            </section>
-
-            <hr class="divider"
 
 
             <!-- FAQ
